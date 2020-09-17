@@ -1,0 +1,28 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__link/cover__link.css);
+.cover{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 760px;
+    background-image: url(../../images/cover__background.jpg);
+    background-size: cover;
+
+}
+.cover::before{
+    position: absolute;
+    content: " ";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.5;
+    
+}
+.cover:hover:before{
+    opacity: 0.8;
+}

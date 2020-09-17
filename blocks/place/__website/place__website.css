@@ -1,0 +1,10 @@
+@import url(./_url-heading/place__url-heading.css);
+@import url(./_link/.place__link.css);
+.place__website{
+    align-self: flex-end; 
+}
+@media screen and (max-width: 320px) {
+    .place__website{
+        display: none;
+    }
+}
