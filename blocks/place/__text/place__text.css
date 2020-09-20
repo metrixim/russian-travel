@@ -1,4 +1,4 @@
-@import url(./__paragraph/place__paragraph.css);
+@import url(../__paragraph/place__paragraph.css);
 .place__text{
     grid-row: 2/3;
     grid-column: 2;
@@ -7,6 +7,7 @@
     .place__text{
         grid-row: 3;
         grid-column: 1;
-        padding: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }

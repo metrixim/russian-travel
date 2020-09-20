@@ -4,20 +4,40 @@
 @import url(./__image/place__image.css);
 @import url(./__text/place__text.css);
 .place{
-box-sizing: border-box;
 margin-top: 80px;
 display: grid;
-padding: 1em;
-grid-template-columns: auto, max-content(460px); 
+padding-left: 48px;
+padding-right: 48px;
+grid-template-columns: 40% 60%;
 grid-template-rows: repeat(2 auto);
 grid-column-gap: 4%;
 grid-row-gap: 48px;
 }
 .place:nth-child(1){
     margin-top: 92px;
+
+}
+@media screen and (max-width: 768px) {
+    .place{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .place{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 @media screen and (max-width: 320px) {
 .place{
+    grid-template-columns: 100%;
     padding: 0;
+    margin-top: 48px;
 }
+}
+@media screen and (max-width: 320px) {
+    .place:nth-child(1){
+        margin-bottom: 64px;
+    }
 }

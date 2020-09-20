@@ -2,14 +2,18 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__link/cover__link.css);
 .cover{
+    width: 100%;
+    min-height: 740px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 760px;
+    background-position: center;
     background-image: url(../../images/cover__background.jpg);
     background-size: cover;
+    margin-top: 92px;
+    
 
 }
 .cover::before{
@@ -20,9 +24,26 @@
     bottom: 0;
     left: 0;
     background-color: #2A2C2F;
-    opacity: 0.5;
+    opacity: 0.3;
     
 }
 .cover:hover:before{
     opacity: 0.8;
+}
+@media screen and (max-width: 1024px) {
+    .cover{
+        min-height: 640px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover{
+        min-height: 480px;
+        margin-top: 88px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover{
+        min-height: 200px;
+        margin-top: 64px;
+    }
 }

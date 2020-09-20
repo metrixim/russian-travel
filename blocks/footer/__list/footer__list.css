@@ -1,8 +1,5 @@
 .footer__list{
-    list-style: none;
     display: flex;
-    padding: 0;
-    margin: 0;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -11,12 +8,8 @@
     color: #FFFFFF;
     text-decoration: none;
     }
-    .footer__link:hover{
-        text-decoration: underline;
-        opacity: 0.3;
-    }
     
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 750px) {
         .footer__list{
             flex-direction: column;
             margin-top: 64px;
