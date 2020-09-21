@@ -7,11 +7,13 @@
     line-height: 1.12;
     color: #FFFFFF;
     text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     }
     
     @media screen and (max-width: 750px) {
         .footer__list{
             flex-direction: column;
-            margin-top: 64px;
         }
     }

@@ -1,5 +1,14 @@
 .cover__link{
-    width: 100%;
     text-decoration: none;
     z-index: 2;
+    }
+    @media screen and (max-width: 320px) {
+        .cover__link{
+           max-width: 288px; 
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .cover__link{
+           max-width: 560px; 
+        }
     }

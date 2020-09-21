@@ -10,9 +10,12 @@
     }
     .header__link:first-of-type{
         margin-left: 0;
+        text-decoration-line: underline;
+        
     }
     .header__link:hover{
         text-decoration: underline;
+        opacity: 0.8;
     }
     @media screen and (max-width: 320px) {
         .header__link{
