@@ -30,20 +30,21 @@
 .cover:hover:before{
     opacity: 0.8;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1250px) {
     .cover{
         min-height: 640px;
     }
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1000px) {
     .cover{
-        min-height: 500px;
+        width: 921px;
+        min-height: 600px;
         margin-top: 88px;
 
         
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
     .cover{
         min-height: 480px;
         margin-top: 88px;
@@ -51,7 +52,7 @@
         
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 520px) {
     .cover{
         min-height: 200px;
         margin-top: 64px;
