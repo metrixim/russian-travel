@@ -2,21 +2,4 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-@media screen and (max-width: 1024px) {
-    .lead__figure{
-        max-width: 928px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .lead__figure{
-        max-width: 768px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .lead__figure{
-        max-width: 320px;
-    }
 }

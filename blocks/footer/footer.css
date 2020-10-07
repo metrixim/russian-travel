@@ -3,11 +3,23 @@
 @import url(./__author/footer__author.css);
 @import url(./__href/footer__href.css);
 .footer{
-    margin: 92px 4% 24px;
+    margin: 92px auto 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     }
+@media screen and (max-width: 1250px) {
+        .footer{
+            margin-left: 48px;
+            margin-right: 48px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .footer{
+        margin-left: 24px;
+        margin-right: 24px;
+}
+}
 @media screen and (max-width: 750px) {
     .footer{
         flex-direction: column;
