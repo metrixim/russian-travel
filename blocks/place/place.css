@@ -24,7 +24,7 @@ grid-row-gap: 48px;
         grid-template-columns: 40% 456px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
     .place{
         padding-left: 24px;
         padding-right: 24px;
