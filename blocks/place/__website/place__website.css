@@ -4,7 +4,7 @@
     align-self: flex-end; 
     padding-left: 1em;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px){
     .place__website{
         display: none;
     }
