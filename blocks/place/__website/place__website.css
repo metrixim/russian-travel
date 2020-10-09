@@ -2,10 +2,11 @@
 @import url(../__link/.place__link.css);
 .place__website{
     align-self: flex-end;
-    padding-left: 1em;
+padding-left: 1em;
 }
 @media screen and (max-width: 750px){
     .place__website{
         display: none;
     }
-}
+}align-self: flex-end;
+padding-left: 1em;
