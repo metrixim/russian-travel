@@ -1,59 +1,66 @@
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
-@import url(./__link/cover__link.css);
-.cover{
+@import url(../cover/__link/cover__link.css);
+@import url(../cover/__subtitle/cover__subtitle.css);
+@import url(../cover/__title/cover__title.css);
+.cover {
+  width: calc(100% - 2*48px);
+  height: 740px;
+  margin: 0 auto 92px;
+  background-image: url(../../images/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cover::after {
+  content: "";
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px #000;
+  transition: opacity 0.3s ease;
+  
+}
+
+.cover:hover::after {
+  content: "";
+  background-color: #2A2C2F;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px #000;
+  
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    height: 640px;
     width: 100%;
-    min-height: 740px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-    background-image: url(../../images/cover__background.jpg);
-    background-size: cover;
-    margin-top: 92px;
-    
+  }
+}
 
+@media screen and (max-width: 1023px) {
+  .cover {
+    height: 480px;
+    width: 100%;
+    margin-bottom: 88px;
+  }
 }
-.cover::before{
-    position: absolute;
-    content: " ";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    
-}
-.cover:hover:before{
-    opacity: 0.8;
-}
-@media screen and (max-width: 1024px) {
-    .cover{
-        min-height: 640px;
-    }
-}
-@media screen and (max-width: 830px) {
-    .cover{
-        min-height: 500px;
-        margin-top: 88px;
 
-        
-    }
-}
-@media screen and (max-width: 768px) {
-    .cover{
-        min-height: 480px;
-        margin-top: 88px;
-
-        
-    }
-}
-@media screen and (max-width: 320px) {
-    .cover{
-        min-height: 200px;
-        margin-top: 64px;
-    }
+@media screen and (max-width: 767px) {
+  .cover {
+    height: 200px;
+    margin-bottom: 64px;
+  }
 }

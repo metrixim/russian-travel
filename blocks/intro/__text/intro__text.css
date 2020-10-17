@@ -1,10 +1,6 @@
-.intro__text{
-    margin-top: 40px;
-    max-width: 690px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.63;
-    color: #FFFFFF;
-    }
+.intro__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 40px 0 0;
+}

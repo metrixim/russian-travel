@@ -1,12 +1,10 @@
-@import url(../__url-heading/place__url-heading.css);
-@import url(../__link/.place__link.css);
-.place__website{
-    align-self: flex-end;
-padding-left: 1em;
+.place__website {
+  align-self: end;
+  max-width: 456px;
 }
-@media screen and (max-width: 750px){
-    .place__website{
-        display: none;
-    }
-}align-self: flex-end;
-padding-left: 1em;
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    display: none;
+  }
+}
