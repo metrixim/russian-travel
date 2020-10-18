@@ -1,0 +1,7 @@
+.lead__firure{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+}
