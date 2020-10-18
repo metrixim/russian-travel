@@ -1,9 +1,9 @@
-@import url(../cover/__link/cover__link.css);
-@import url(../cover/__subtitle/cover__subtitle.css);
-@import url(../cover/__title/cover__title.css);
+@import url(./__link/cover__link.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
 .cover {
   width: calc(100% - 2*48px);
-  height: 740px;
+  min-height: 740px;
   margin: 0 auto 92px;
   background-image: url(../../images/cover__background.jpg);
   background-repeat: no-repeat;
@@ -45,22 +45,21 @@
 
 @media screen and (max-width: 1279px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    height: 480px;
-    width: 100%;
+    min-height: 480px;
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    height: 200px;
+    min-height: 200px;
     margin-bottom: 64px;
   }
 }

@@ -1,8 +1,8 @@
-@import url(../footer/__copyright/footer__copyright.css);
-@import url(../footer/__link/footer__link.css);
-@import url(../footer/__menu-item/footer__menu-item.css);
-@import url(../footer/__menu/footer__menu.css);
-@import url(../footer/__nav/footer__nav.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
+@import url(./__menu-item/footer__menu-item.css);
+@import url(./__menu/footer__menu.css);
+@import url(./__nav/footer__nav.css);
 .footer {
   width: calc(100% - 2*48px);
   margin: 0 auto 24px;
